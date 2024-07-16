@@ -16,6 +16,7 @@ namespace RegularExam
             {
                 string[] splittedInput = input.Split(' ');
                 string command = splittedInput[0];
+                // втора промяна
 
                 switch (command)
                 {
