@@ -15,6 +15,7 @@ namespace RegularExam
             set {
                 if (value.Length < 6)
                 {
+                    //това е промяна на кода 
                     throw new ArgumentException($"Invalid perfumery name!");
                 }
                 this.name = value; }
