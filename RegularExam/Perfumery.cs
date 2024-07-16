@@ -13,7 +13,7 @@ namespace RegularExam
         {
             get { return this.name; }
             set {
-                if (value.Length < 6)
+                if (value.Length < 1)
                 {
                     throw new ArgumentException($"Invalid perfumery name!");
                 }
